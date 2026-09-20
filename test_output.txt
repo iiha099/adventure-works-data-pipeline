@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.8, pytest-9.1.1, pluggy-1.6.0 -- /home/hajer/.pyenv/versions/3.12.8/bin/python3.12
+cachedir: .pytest_cache
+rootdir: /home/hajer/code/iiha099/data-engineering-challenges/02-Database-Fundamentals/04-Data-Warehousing/01-Adventure-works
+configfile: pyproject.toml
+collecting ... collected 4 items
+
+tests/test_bigquery_assets.py::test_bigquery_dataset_exists PASSED       [ 25%]
+tests/test_bigquery_assets.py::test_bigquery_table_exists PASSED         [ 50%]
+tests/test_process_store.py::test_parse_xml_to_dict PASSED               [ 75%]
+tests/test_process_store.py::test_store_csv PASSED                       [100%]
+
+============================== 4 passed in 4.25s ===============================
